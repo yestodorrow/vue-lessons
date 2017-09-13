@@ -1,0 +1,64 @@
+一、Vue介绍
+
+vuejs.com
+github.com/vuejs/awesome-vue //列举了和vue先关的官方和第三方用的比较多的资源
+
+what？VueJS是国内的开发者尤雨溪开发的js的框架
+
+when？ 实现UI层的渐进式的框架
+从最简单的数据处理，到数据交互，到DOM操作，到路由处理等，VueJS都有完整的解决方案
+
+why？
+学习曲线比较缓和
+Vue借鉴了Angular的指令、React中组件和props等优点进行设计
+Vue提供了全套的解决方案
+
+how？
+两种开发模式：
+1、CLI
+# 全局安装 vue-cli
+$ npm install --global vue-cli
+# 创建一个基于 webpack 模板的新项目
+$ vue init webpack my-project
+# 安装依赖，走你
+$ cd my-project
+$ npm install
+$ npm run dev
+
+2、引入js文件
+直接下载，引入js文件即可
+
+
+二、Vue知识点
+1、Vue所支持的指令
+选择：
+v-if v-else v-else-if
+
+循环：
+v-for
+
+显示：
+v-show
+
+绑定属性：
+v-bind
+在vue中 绑定html属性，必须使用v-bind
+缩写的形式： v-bind:src --> :src
+
+双向数据绑定：
+v-model 修饰符：.lazy .number .trim
+<input	type='number' v-model.number='num1'/>
+
+绑定事件：
+v-on:click="handleClick"
+
+
+
+
+
+
+
+
+
+
+
